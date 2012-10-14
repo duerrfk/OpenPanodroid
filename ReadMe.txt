@@ -5,6 +5,7 @@ OpenPanodroid was originally developed by Frank Dürr
 
 The latest version of OpenPanodroid is available from GitHub:
 
+https://github.com/duerrfk/OpenPanodroid
 
 OpenPanodroid is released under the GNU General Public License (GNU GPLv3), 
 to enable the community to extend OpenPanodroid and use it as basis for

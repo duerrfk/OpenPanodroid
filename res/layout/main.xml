@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView android:text="@+string/labelTextViewSearchTags" android:id="@+id/textViewSearchTags" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:text="" android:id="@+id/editTextSearchTags" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+<TextView android:text="@+string/labelTextViewSort" android:id="@+id/textViewSort" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<RadioGroup android:id="@+id/RadioGroup01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<RadioButton android:text="@+string/labelRadioButtonInterestingness" android:id="@+id/radioButtonInterestingness" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+<RadioButton android:text="@+string/labelRadioButtonDate" android:id="@+id/radioButtonDate" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+</RadioGroup>
+<CheckBox android:id="@+id/checkBoxLowResImages" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@+string/labelCheckBoxLowResImages" />
+<Button android:text="@+string/labelButtonSearch" android:id="@+id/buttonSearch" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/imageInfo"
+      android:icon="@drawable/photoinfo" android:title="@string/imageInfo"/>
+    <item android:id="@+id/flickrPhotoPage"
+      android:icon="@drawable/picture" android:title="@string/flickrPhotoPage"/>
+    <item android:id="@+id/about"
+      android:icon="@drawable/info" android:title="@string/about"/>
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <Button android:text="@+string/labelButtonSearchFlickr" android:id="@+id/buttonSearchFlickr" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    <Button android:text="@+string/labelButtonLoadLocal" android:id="@+id/buttonLoadLocal" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
+	    <Button android:text="@+string/labelButtonLoadUrl" android:id="@+id/buttonLoadUrl" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+        <EditText android:id="@+id/editTextUrl" android:layout_weight="1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <requestFocus></requestFocus>
+        </EditText>
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PanodroidActivity!</string>
+    <string name="app_name">OpenPanodroid</string>
+
+
+<string name="labelTextViewSearchTags">Search tags (optional):</string>
+<string name="labelTextViewSort">Sort by:</string>
+<string name="labelButtonSearch">Search panoramas</string>
+<string name="labelRadioButtonInterestingness">Interestingness (most interesting first)</string>
+<string name="labelRadioButtonDate">Date (latest first)</string>
+<string name="aboutText">OpenPanodroid: Copyright 2012 Frank Dürr.\nhttp://www.frank-durr.de\nfrank.d.durr@googlemail.com\n\nOpenPanodroid is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis product uses the Flickr API but is not endorsed or certified by Flickr.\nhttp://www.flickr.com/services/api/\n\nPhotos are copyright by their respective authors.</string>
+<string name="noImages">Found no panorama images matching search criteria.</string>
+<string name="cancel">Cancel</string>
+<string name="imageSearch">Searching for images.</string>
+<string name="imageInfoRequest">Requesting image information.</string>
+<string name="photoQueryFailed">Flickr photo query failed.</string>
+<string name="photoInfoQueryFailed">Could not load image information.</string>
+<string name="loadingPanoFailed">Could not load panorama image.</string>
+<string name="convertingPanoFailed">Panorama image conversion failed.</string>
+<string name="about">About</string>
+<string name="imageInfo">Image info</string>
+<string name="loadingPanoImage">Loading panorama image.</string>
+<string name="convertingPanoImage">Converting panorama image.</string>
+<string name="untitled">untitled</string>
+<string name="noMoreImages">Found no further images.</string>
+<string name="labelButtonFurtherResults">Request further images</string>
+<string name="by">by</string>
+<string name="outofmemory">Out of memory.</string>
+<string name="labelCheckBoxLowResImages">Include low resolution images (high res. images will be marked with a star)</string>
+<string name="labelButtonSearchFlickr">Search Flickr for images</string>
+<string name="labelButtonLoadLocal">Load image from local file</string>
+<string name="labelButtonLoadUrl">Load this URL:</string>
+<string name="labelTextViewUrl">Image URL:</string>
+<string name="invalidUrl">Invalid URL specified.</string>
+<string name="sourceSelect">Select source</string>
+<string name="imageDecodeFailed">Image could not be decoded.</string>
+<string name="invalidPanoImage">Invalid panorama image (no equirectangular panorama; width != 2*height).</string>
+<string name="titleTextureSizePref">Texture size</string>
+<string name="summaryTextureSizePref">Larger texture size means better display quality. 2048x2048 is only useful for tablets, and requires fast CPU and large memory.</string>
+<string name="preferences">Preferences</string>
+<string name="flickrPhotoPage">Image Page @ Flickr</string>
+</resources>
